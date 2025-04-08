@@ -1,0 +1,28 @@
+name: user_repository
+description: A new Flutter package project.
+version: 0.0.1+1
+publish_to: 'none' 
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+  async: ^2.13.0
+  # Uncomment if needed:
+  # equatable: ^2.0.5
+  # firebase_storage: ^11.0.0
+  # rxdart: ^0.27.0
+  # path: ^1.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

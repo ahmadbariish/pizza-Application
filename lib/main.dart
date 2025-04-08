@@ -15,7 +15,7 @@ class app extends StatelessWidget {
           title: const Text('Flutter Demo'),
         ),
         body: const Center(
-          child: Text('h'),
+          child: Text('hello world'),
         ),
       ),
     );
